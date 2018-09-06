@@ -1,7 +1,7 @@
 {
   "name": "organic-worker-interval",
   "description": "Abstract Organelle providing interval based function execution",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "test": "eslint ./ && jest",
     "preversion": "npm test",
