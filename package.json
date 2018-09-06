@@ -1,0 +1,35 @@
+{
+  "name": "organic-worker-interval",
+  "description": "Abstract Organelle providing interval based function execution",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "eslint ./ && jest",
+    "preversion": "npm test",
+    "release-patch": "npm version patch && npm publish",
+    "release-minor": "npm version minor && npm publish",
+    "release-major": "npm version major && npm publish",
+    "postversion": "git push origin master && git push origin master --tags"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^23.5.0",
+    "organic-plasma": "^2.1.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-organic/organic-worker-interval.git"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/node-organic/organic-worker-interval/issues"
+  },
+  "homepage": "https://github.com/node-organic/organic-worker-interval#readme"
+}
